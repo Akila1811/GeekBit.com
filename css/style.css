@@ -57,6 +57,7 @@ src: url("../nulshock bd.otf");
 
 html {
      scroll-behavior: smooth;
+     overflow-x: hidden;
 }
 
 body {
@@ -456,7 +457,8 @@ button {
 
 .image_11 img
 {
-    width: 4096px;
+    
+    
     width: 100%;
     float: left;
     padding-top: 66px;
@@ -846,7 +848,7 @@ button {
     text-align: center;
 }
 
-.main_bt {
+.main_bt  {
     background: #912b69;
     border: none;
     color: #faf9f9;
@@ -859,7 +861,22 @@ button {
     text-align: center;
     padding-top: 8px;
     margin-top: 60px;
+ 
 }
+button
+{
+    background: #912b69;
+    border: none;
+    color: #faf9f9;
+    width: 160px;
+    height: 58px;
+    font-size: 24px;
+    padding-top: 3px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+button:hover{background-color:black;}
 .main_bt a {
     color: #faf9f9;
 }
