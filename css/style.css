@@ -67,6 +67,9 @@ body {
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
+     height: 100%;
+     margin: 0;
+     padding: 0;
 }
 
 a {
@@ -215,7 +218,7 @@ img {
 
 .navbar-toggler-icon 
 {
-    background-color: gray;
+    background-color: rgb(151, 65, 140);
     border-radius: 10px;
     padding: 25px;
     margin: 20px;
@@ -458,7 +461,7 @@ button {
 .image_11 img
 {
     
-    
+
     width: 100%;
     float: left;
     padding-top: 66px;
@@ -468,6 +471,8 @@ button {
 
 .about_section{
     width: 100%;
+    max-width: 100%;
+  min-height: 70vh;
     float: left;
     height: auto;
     padding-bottom: 100px;
@@ -477,15 +482,19 @@ button {
     background-position:center top;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+   margin-bottom: 30px;
 
 }
 
 .image_22 img {
-    width: 100%;
+    max-width: 100%;
     float: left;
     border-radius: 10px;
     margin-top: 50px;
-    margin-bottom: 100px;
+    height: auto;
+    display: block;
+  
+
 }
 
 
@@ -508,7 +517,7 @@ button {
     font-weight: 600;
     text-transform: uppercase;
     text-align: right;
-    margin-top: 150px;
+    margin-top: 100px;
     
 }
 
@@ -863,7 +872,7 @@ button {
     margin-top: 60px;
  
 }
-button
+.button1
 {
     background: #912b69;
     border: none;
@@ -876,7 +885,7 @@ button
     text-align: center;
     margin-top: 20px;
 }
-button:hover{background-color:black;}
+.button1:hover{background-color:black;}
 .main_bt a {
     color: #faf9f9;
 }

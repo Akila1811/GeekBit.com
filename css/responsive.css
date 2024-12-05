@@ -113,6 +113,7 @@
         padding: 5px 0px;
         text-transform: capitalize;
         width: 100%;
+        
     }
     .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
         width: auto;
@@ -152,7 +153,7 @@ width: 30%;
 #my_slider a.carousel-control-next { display: none; }
 #my_slider a.carousel-control-prev { display: none; }
 .banner_section { padding-bottom: 90px; }
-.about_section { padding-top: 0px; }
+.about_section { padding-top: 100px;  }
 .product_text { font-size: 37px; }
 .video_text_2 { font-size: 37px; }
 .controller_text_2 { font-size: 31px; }
@@ -160,7 +161,7 @@ width: 30%;
 .video_section { padding-bottom: 80px; }
 .testimonial_text { font-size: 40px; }
 .client_right { left: -30px; }
-.image_6 { margin-top: 50px; }
+.image_6 { margin-top: 20px; }
 .social_icon { width: 70%; }
 .social_icon ul { display: inline-flex; }
 .section_footer { margin-top: 0px; }
@@ -168,8 +169,25 @@ width: 30%;
     padding-right: 5px;
     padding-left: 10px;
     font-size: 14px;
+
+
+
+
 }
 
+@media screen and (max-width: 459px) {
+    .navbar-toggler{
+        left: auto; /* Resetujte levo */
+        right: 10px; /* Postavite ikonu desno */
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .contact_section .image_6{
+        width: 120px;
+    }
+}
 
 
 
@@ -226,7 +244,7 @@ width: 30%;
 #my_slider a.carousel-control-next { display: none; }
 #my_slider a.carousel-control-prev { display: none; }
 .banner_section { padding-bottom: 90px; }
-.about_section { padding-top: 0px; }
+.about_section { padding-top: 150px;  }
 .shop_bt_2 { width: 45%; }
 .product_text { font-size: 37px; }
 .see_main { width: 25%; }
@@ -242,7 +260,7 @@ width: 30%;
 .social_icon { width: 70%; }
 .social_icon ul { display: inline-flex; }
 .section_footer { margin-top: 0px; }
-
+.navbar-expand-lg .nav-link  {margin-top: 70px; padding: 0px;}
 
 
 }
@@ -294,10 +312,12 @@ padding: 126px 40px;
     width: 55%;
 }
 
-.logo { width: 60%; }
+.logo { width: 60%;  }
+.logo img{margin-right: 1000px;}
 .video_text { font-size: 43px; }
 .controller_text { font-size: 46px; }
 .banner_text { padding-top: 0px; }
+.banner_text{ font-size: 20px;}
 .shop_bt { width: 30%; }
 #my_slider a.carousel-control-next { display: none; }
 #my_slider a.carousel-control-prev { display: none; }
@@ -314,9 +334,11 @@ padding: 126px 40px;
 .box_main { width: 100%; padding: 20px;}
 .client_main { width: 65%; }
 .client_right { left: -14px; }
-.image_6 { margin-top: 50px; }
+.image_6 { margin-top: 50px; width: 400px; }
 .social_icon { width: 70%; }
 .social_icon ul { display: inline-flex; }
+.contact_section .form-group {margin-right: 100px;}
+.navbar-expand-lg .nav-link{margin-top: 20px;}
 
 } 
 
@@ -429,8 +451,8 @@ ul.link li {
 .subscribr_bt { width: 140px; }
 .image_2 { text-align: center; }
 .margin_top_2 { margin-top: 0px; }
-
-
+.contact_section .form-group {margin-right: 100px;}
+.navbar-expand-lg .nav-link{margin-top: 20px;}
 
 
 
